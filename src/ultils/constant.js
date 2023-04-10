@@ -1,5 +1,11 @@
+
+
 export const path = {
     HOME: '/home',
     LOGIN: '/login',
-    HEADER: '/header'
+    HEADER: '/header',
+    ADMIN: '/admin',
+    ADMINLOGIN:'/loginAdmin',
+    USERS:'/users', 
+    PRODUCT: '/product'
 }

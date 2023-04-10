@@ -3,6 +3,8 @@ import Navbar from '../../navbar/Navbar'
 import Sidebar from '../../sidebar/Sidebar'
 import Widget from '../../widget/Widget'
 import './hommeadmin.scss'
+import Featured from '../../featured/Featured'
+import Chart from '../../chart/Chart'
 const HomeAdmin = () => {
     return(
      <div className='home'>
@@ -15,6 +17,11 @@ const HomeAdmin = () => {
          <Widget type="earning" />
          <Widget type="balance" />
        </div>
+       <div className="charts">
+       <Featured />
+       <Chart title="Last 6 Months (Revenue)" aspect={2 / 1} />
+      
+     </div>
        </div>
       
      </div>
